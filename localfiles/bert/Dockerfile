@@ -16,6 +16,7 @@ CMD  python train.py
 #RUN pip install torchvision
 #RUN pip install scikit-learn
 #RUN pip3 install sagemaker-training
+#Import transformers
 
 #COPY . /opt/ml/code/
 #ENV SAGEMAKER_PROGRAM train.py
