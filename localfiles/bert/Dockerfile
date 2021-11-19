@@ -10,7 +10,7 @@
 
 
 
-Below commands are required while running on the sagemaker.
+#Below commands are required while running on the sagemaker.
 FROM tensorflow/tensorflow:2.5.0-gpu-jupyter
 RUN pip install pandas
 RUN pip install torchvision
